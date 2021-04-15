@@ -1,0 +1,38 @@
+.destinations_container .item_grid .item_grid_position {
+  position: relative;
+  height: 832.782px;
+}
+
+.destination .item .item1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.destination .item .item2 {
+  position: absolute;
+  left: 390px;
+  top: 0px;
+}
+
+.destination .item .item3 {
+  position: absolute;
+  left: 780px;
+  top: 0px;
+}
+
+.destination .item .item4 {
+  position: absolute;
+  left: 0px;
+  top: 416px;
+}
+.destination .item .item5 {
+  position: absolute;
+  left: 390px;
+  top: 416px;
+}
+.destination .item .item6 {
+  position: absolute;
+  left: 780px;
+  top: 416px;
+}
