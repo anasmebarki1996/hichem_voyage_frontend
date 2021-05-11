@@ -570,18 +570,7 @@ section {
   font-weight: 500 !important;
   color: #72728c !important;
 }
-.search_input_1 {
-  width: 25%;
-}
-.search_input_2 {
-  width: 15%;
-}
-.search_input_3 {
-  width: 15%;
-}
-.search_input_4 {
-  width: 20%;
-}
+
 .search_input::-webkit-input-placeholder {
   font-family: "Oswald", sans-serif;
   font-size: 14px !important;
@@ -613,7 +602,7 @@ section {
   color: #72728c !important;
 }
 .home_search_button {
-  width: 161px;
+  width: 100%;
   height: 52px;
   background: #181818;
   color: #ffffff;
