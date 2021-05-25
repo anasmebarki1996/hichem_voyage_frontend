@@ -1,6 +1,6 @@
 import React from "react";
 
-import Index from "screens/MainRouter";
+import Index from "screens";
 import { Provider } from "react-redux";
 import store from "store";
 

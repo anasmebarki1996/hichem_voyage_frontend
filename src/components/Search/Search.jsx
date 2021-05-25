@@ -16,7 +16,7 @@ const Search = ({
         <div class="row">
           <div class="col">
             <div class="home_search_container">
-              <div class="home_search_title">Search for your trip</div>
+              <div class="home_search_title">Recherchez votre voyage</div>
               <div class="home_search_content">
                 <div class="home_search_form" id="home_search_form">
                   <div class="d-flex flex-lg-row flex-column align-items-start justify-content-lg-between justify-content-start">
@@ -102,7 +102,7 @@ const Search = ({
                       required="required"
                     />
                     <button class="home_search_button" onClick={submitHandler}>
-                      search
+                      RECHERCHER
                     </button>
                   </div>
                 </div>

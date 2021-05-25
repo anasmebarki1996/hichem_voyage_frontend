@@ -12,6 +12,7 @@ function authReducer(state = initialState, action) {
       return {
         ...state,
         isLoggedIn: true,
+        name: action.name,
       };
     case REGISTER:
       return {
@@ -21,13 +22,15 @@ function authReducer(state = initialState, action) {
       };
     case LOGOUT:
       return {
-        ...state,
+        email: "",
+        name: "",
         isLoggedIn: false,
       };
     case CHECK_TOKEN: {
       return {
         ...state,
         isLoggedIn: action.isLoggedIn,
+        name: action.name,
       };
     }
     default:

@@ -3,14 +3,15 @@ import Cookies from "universal-cookie";
 
 const cookies = new Cookies();
 const AxiosInstance = axios.create({
-  baseURL: "http://127.55.44.99:30001/API/admin/",
+  baseURL: "https://backend-hichem-voyage.herokuapp.com/API/admin/",
+  // baseURL: "http://127.55.44.99:3000/API/user/",
 });
 
-axios.interceptors.request.use(
+AxiosInstance.interceptors.request.use(
   async (config) => {
     const token = await cookies.get("access_token");
     if (token) {
-      config.headers.Authorization = "bearer " + token;
+      config.headers.Authorization = token;
     }
     return config;
   },
@@ -27,7 +28,6 @@ AxiosInstance.interceptors.response.use(
   (error) => {
     if (error.response.status === 422) {
       return new Promise((resolve, reject) => {
-        // console.log(error);
         let data = { ...error.response.data };
         let errors = {};
         for (const key in data) {
@@ -39,15 +39,24 @@ AxiosInstance.interceptors.response.use(
         reject({ status: error.response.status, data: errors });
       });
     } else if (error.response.status === 401) {
-      localStorage.removeItem("access_token");
+      cookies.remove("access_token", { path: "/" });
+      cookies.remove("name_user", { path: "/" });
       return new Promise((resolve, reject) => {
         reject({
           status: error.response.status,
           data: "email or password ne sont pas valides",
         });
       });
+    } else if (error.response.status === 403) {
+      return new Promise((resolve, reject) => {
+        reject({
+          status: error.response.status,
+          data: error.response.data,
+        });
+      });
     } else {
       return new Promise((resolve, reject) => {
+        console.log(error.response);
         reject({
           status: error.response.status,
           data: "something went wrong",

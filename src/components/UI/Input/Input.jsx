@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./style.css";
+import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 const Input = (props) => {
   const {
     type,
@@ -92,15 +92,14 @@ const Input = (props) => {
     return (
       <div className="form-group w-100">
         <input
-          type="text"
+          type={type}
           id={id}
           name={name}
           placeholder={placeholder}
           value={value}
           onBlur={onBlur}
           onChange={onChange}
-          className={className + " " + error}
-          list="browsers"
+          className={classNameFinal}
           required={required}
         />
         <div className="invalid-feedback">{error}</div>

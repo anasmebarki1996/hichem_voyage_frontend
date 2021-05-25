@@ -15,7 +15,7 @@ function Intro() {
                       <img src="assets/img/beach.svg" alt="" />
                     </div>
                     <div class="intro_content">
-                      <div class="intro_title">Top Destinations</div>
+                      <div class="intro_title">Toutes les Destinations</div>
                       <div class="intro_subtitle">
                         <p>Nulla pretium tincidunt felis, nec.</p>
                       </div>
@@ -29,7 +29,7 @@ function Intro() {
                       <img src="assets/img/wallet.svg" alt="" />
                     </div>
                     <div class="intro_content">
-                      <div class="intro_title">The Best Prices</div>
+                      <div class="intro_title">Les meilleurs prix</div>
                       <div class="intro_subtitle">
                         <p>Sollicitudin mauris lobortis in.</p>
                       </div>
@@ -43,7 +43,7 @@ function Intro() {
                       <img src="assets/img/suitcase.svg" alt="" />
                     </div>
                     <div class="intro_content">
-                      <div class="intro_title">Amazing Services</div>
+                      <div class="intro_title">Toutes les propositios</div>
                       <div class="intro_subtitle">
                         <p>Nulla pretium tincidunt felis, nec.</p>
                       </div>

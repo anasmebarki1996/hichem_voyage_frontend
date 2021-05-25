@@ -9,19 +9,22 @@ const cookie = new Cookies();
 export const checkToken = () => {
   return async (dispatch) => {
     const token = await cookie.get("access_token");
+    const name = await cookie.get("name_user");
+
     if (token) {
-      dispatch({ type: LOGIN_SUCCESS });
+      dispatch({ type: LOGIN_SUCCESS, name: name });
     } else {
       dispatch({ type: LOGOUT });
     }
   };
 };
 
-export function loginSuccess(access_token, expire_in) {
+export function loginSuccess(access_token, expire_in, name) {
   return (dispatch) => {
     const cookies = new Cookies();
     cookies.set("access_token", access_token, { maxAge: expire_in });
-    dispatch({ type: LOGIN_SUCCESS });
+    cookies.set("name_user", name, { maxAge: expire_in });
+    dispatch({ type: LOGIN_SUCCESS, name: name });
   };
 }
 

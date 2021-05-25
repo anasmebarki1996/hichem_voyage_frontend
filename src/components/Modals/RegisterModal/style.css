@@ -1,0 +1,9 @@
+.custom-modal {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.modal-content {
+  width: 100%;
+}

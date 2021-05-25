@@ -36,13 +36,13 @@ function Testimonials() {
                         </div>
                         <div class="testimonial_author">
                           <div class="testimonial_author_content d-flex flex-row align-items-end justify-content-start">
-                            <div>john turner,</div>
+                            <div>Mebarki yacine,</div>
                             <div>client</div>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div
+                    {/* <div
                       class="owl-item cloned"
                       //      style="width: 1140px"
                     >
@@ -150,6 +150,7 @@ function Testimonials() {
                         </div>
                       </div>
                     </div>
+                   */}
                   </div>
                 </div>
                 <div class="owl-nav disabled">
@@ -163,7 +164,7 @@ function Testimonials() {
         </div>
       </div>
       <div class="test_nav">
-        <ul class="d-flex flex-column align-items-end justify-content-end">
+        {/* <ul class="d-flex flex-column align-items-end justify-content-end">
           <li>
             <a href="#">
               City Breaks Clients<span>01</span>
@@ -179,7 +180,7 @@ function Testimonials() {
               All Inclusive Clients<span>03</span>
             </a>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </div>
   );

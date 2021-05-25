@@ -1,0 +1,45 @@
+.voyage_detail_header {
+  background-color: #f5f5f5;
+  padding: 15px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.selected-journey {
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.time {
+  font-size: large;
+  font-weight: bold;
+}
+
+.duree {
+  font-size: 13px;
+}
+
+.adresse {
+  font-size: large;
+  font-weight: bold;
+}
+
+.button-reservation {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 100%;
+  background-color: #181818;
+  color: white;
+  font-size: large;
+  cursor: pointer;
+}
+
+.no_voyage_selected {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}

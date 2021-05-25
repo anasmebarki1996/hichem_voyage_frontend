@@ -104,6 +104,7 @@ const FormState = (form, submitFunction) => {
 
   // submit form
   const submitHandler = () => {
+    console.log(formState.inputHasErrors);
     setIsSubmitting(true);
     formVerifyHandler();
   };

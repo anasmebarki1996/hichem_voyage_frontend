@@ -6,30 +6,30 @@ function Destinations() {
       <div class="container">
         <div class="row">
           <div class="col text-center">
-            <div class="section_subtitle">simply amazing places</div>
+            {/* <div class="section_subtitle">simply amazing places</div> */}
             <div class="section_title">
-              <h2>Popular Destinations</h2>
+              <h2>Destinations</h2>
             </div>
           </div>
         </div>
         <div class="row destinations_row">
           <div class="col">
-            <div class="destinations_container item_grid item_grid_position">
+            <div class="destinations_container item_grid item_grid_position row">
               <div class="destination item item1">
                 <div class="destination_image">
                   <img src="assets/img/destination_1.jpg" alt="" />
-                  <div class="spec_offer text-center">
+                  {/* <div class="spec_offer text-center">
                     <a href="#">Special Offer</a>
-                  </div>
+                  </div> */}
                 </div>
                 <div class="destination_content">
                   <div class="destination_title">
-                    <a href="destinations.html">Bali</a>
+                    <a href="destinations.html">Alger</a>
                   </div>
                   <div class="destination_subtitle">
-                    <p>Nulla pretium tincidunt felis, nec.</p>
+                    <p>La capitale.</p>
                   </div>
-                  <div class="destination_price">From $679</div>
+                  {/* <div class="destination_price">From $679</div> */}
                 </div>
               </div>
 
@@ -39,12 +39,12 @@ function Destinations() {
                 </div>
                 <div class="destination_content">
                   <div class="destination_title">
-                    <a href="destinations.html">Indonesia</a>
+                    <a href="destinations.html">Annaba</a>
                   </div>
                   <div class="destination_subtitle">
-                    <p>Nulla pretium tincidunt felis, nec.</p>
+                    <p>.</p>
                   </div>
-                  <div class="destination_price">From $679</div>
+                  {/* <div class="destination_price">From $679</div> */}
                 </div>
               </div>
 
@@ -54,12 +54,12 @@ function Destinations() {
                 </div>
                 <div class="destination_content">
                   <div class="destination_title">
-                    <a href="destinations.html">San Francisco</a>
+                    <a href="destinations.html">Oran</a>
                   </div>
                   <div class="destination_subtitle">
-                    <p>Nulla pretium tincidunt felis, nec.</p>
+                    <p>.</p>
                   </div>
-                  <div class="destination_price">From $679</div>
+                  {/* <div class="destination_price">From $679</div> */}
                 </div>
               </div>
 
@@ -69,12 +69,12 @@ function Destinations() {
                 </div>
                 <div class="destination_content">
                   <div class="destination_title">
-                    <a href="destinations.html">Paris</a>
+                    <a href="destinations.html">Tlemcen</a>
                   </div>
                   <div class="destination_subtitle">
-                    <p>Nulla pretium tincidunt felis, nec.</p>
+                    <p>.</p>
                   </div>
-                  <div class="destination_price">From $679</div>
+                  {/* <div class="destination_price">From $679</div> */}
                 </div>
               </div>
 
@@ -84,12 +84,12 @@ function Destinations() {
                 </div>
                 <div class="destination_content">
                   <div class="destination_title">
-                    <a href="destinations.html">Phi Phi Island</a>
+                    <a href="destinations.html">Jijel</a>
                   </div>
                   <div class="destination_subtitle">
-                    <p>Nulla pretium tincidunt felis, nec.</p>
+                    <p>.</p>
                   </div>
-                  <div class="destination_price">From $679</div>
+                  {/* <div class="destination_price">From $679</div> */}
                 </div>
               </div>
 
@@ -99,12 +99,12 @@ function Destinations() {
                 </div>
                 <div class="destination_content">
                   <div class="destination_title">
-                    <a href="destinations.html">Mykonos</a>
+                    <a href="destinations.html">Ghardaia</a>
                   </div>
                   <div class="destination_subtitle">
-                    <p>Nulla pretium tincidunt felis, nec.</p>
+                    <p>.</p>
                   </div>
-                  <div class="destination_price">From $679</div>
+                  {/* <div class="destination_price">From $679</div> */}
                 </div>
               </div>
             </div>
