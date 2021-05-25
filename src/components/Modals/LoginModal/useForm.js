@@ -33,8 +33,8 @@ const useForm = (setToggleModalLogin) => {
 
   // formState is the data that we need
   const inputValues = {
-    email: "anasmebarki1996@outlook.fr",
-    password: "123456",
+    email: "",
+    password: "",
   };
 
   // serverMessage is the messages coming from the server api
